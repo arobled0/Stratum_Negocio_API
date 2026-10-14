@@ -1,0 +1,32 @@
+# ==========================================
+# Requisitos de Python / Backend para Stratum
+# Compatible con Windows, macOS y Linux
+# ==========================================
+
+# Framework Web y Servidor ASGI
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# Base de Datos MongoDB Atlas (Async & Sync)
+motor>=3.6.0
+pymongo>=4.8.0
+
+# Autenticación y Verificación de Tokens
+firebase-admin>=6.5.0
+PyJWT>=2.9.0
+cryptography>=43.0.0
+
+# Validación de Datos y Configuración
+pydantic>=2.8.0
+python-dotenv>=1.0.0
+
+# Procesamiento de Archivos (Importación Excel / CSV)
+openpyxl>=3.1.5
+python-multipart>=0.0.9
+
+# Cliente HTTP y Peticiones
+requests>=2.32.0
+httpx>=0.27.0
+
+# Pasarelas de Pago e Integraciones
+mercadopago>=3.6.0
